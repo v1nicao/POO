@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>250</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>test::Calculator
+--
+--
++add(int a, int b): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>90</y>
+      <w>330</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>test::CalculatorTest
+--
+--
++sum2Numbers(): void
+~add(int first, int second, int expectedResult): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>0</x>
+      <y>40</y>
+      <w>380</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>test
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>200</x>
+      <y>190</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=blue
+Composição
+A classe CalculadoraTest 
+tem um ou mais objetos 
+da classe Calculator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>170</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>

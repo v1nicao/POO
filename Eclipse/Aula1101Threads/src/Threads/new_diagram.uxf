@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>370</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Threads::Candidato
+--
+~nome: String
+~numero: int
+~qtde: int
+~partido: String
+--
+~Candidato(String nome, int numero, String partido): ctor
++soma(): void
++achouCandidato(String nome): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>10</y>
+      <w>430</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Threads::ContaCargos
+--
+~arquivo: String
+~cargo: String
+~candidatos = new ArrayList&lt;Candidato&gt;(): ArrayList&lt;Candidato&gt;
+--
+~ContaCargos(String arq, String cargo): ctor
++run(): void
++main(String[] args): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
